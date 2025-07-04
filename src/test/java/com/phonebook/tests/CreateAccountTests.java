@@ -20,7 +20,7 @@ public class CreateAccountTests extends TestBase{
     }
 
     @Test(enabled = false)
-    public void newUserRegistrationPositiveTest(){
+    public void newUserRegistrationPositiveTest() {
         int i=(int)((System.currentTimeMillis()/1000)%3600);
 
         app.getUser().clickOnLoginLink();
